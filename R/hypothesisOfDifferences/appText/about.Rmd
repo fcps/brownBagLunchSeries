@@ -1,0 +1,10 @@
+# Hypotheses of Differences
+Here is some example text to use.  _This would be the place to explain why we created this application_.
+
+# How to use the application
+__Explain the values that are allowed and what the parameters do__.
+* Number of Observations - 
+* Average Test Score - 
+* Standard Deviation of Test Score - 
+	
+	

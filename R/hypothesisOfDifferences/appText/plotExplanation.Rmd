@@ -1,0 +1,5 @@
+# What does the plot in the application tell you?
+* Explain what the plot is showing the user
+* Explain what features they should pay attention to in the plot
+* Give some examples with parameter values that they can repeat that would show cases that don't seem as intuitive
+	
