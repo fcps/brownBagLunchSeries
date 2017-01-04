@@ -1,0 +1,3 @@
+# Viewing the raw data
+* Explain that these data are simulated based on the values that they provide 
+* The table is sortable and searchable so they can look through different things fairly easily

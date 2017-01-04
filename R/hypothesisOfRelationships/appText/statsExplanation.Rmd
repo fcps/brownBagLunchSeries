@@ -1,0 +1,6 @@
+# Quick guide to interpreting the statistical output
+* Explain what a correlation is in broad terms
+* Give generic definition/use case of p-value 
+* Explanation of line of best fit in generic terms
+
+	
