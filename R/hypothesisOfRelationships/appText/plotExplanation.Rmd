@@ -1,5 +1,4 @@
 # What does the plot in the application tell you?
-* Explain what the plot is showing the user
-* Explain what features they should pay attention to in the plot
-* Give some examples with parameter values that they can repeat that would show cases that don't seem as intuitive
-* Give some idea about what the line of best fit shows
+* The plot below is a scatter plot representing the data that you saw earlier. Each point on the graph represents a participant, with the postion on the x-axis being the reading score and the y-axis being te math score.
+* While looking at the plot it is important to look at two things: the direction the plot is going, and how spread out the data is, how much the data would vary around a line of best fit.
+* If you set the number of observations to 169, the AVG reading score to 114, the reading standard deviation to 15, the AVG math score to 238, the math standard deviation to 1, and the correlation to .49; you will see a scatter plot that looks like the data are all over the place. These score do however have a postive correlation between them. If you change the correlation to 0 you will be able to see how the same parameters would look with a stronger correlation.

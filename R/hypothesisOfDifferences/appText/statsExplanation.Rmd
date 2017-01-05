@@ -1,5 +1,4 @@
 # Quick guide to interpreting the statistical output
-* Explain what a t-test is in broad terms
-* Give generic definition/use case of p-value
-
-	
+* A t-test is used to determione is there is a true difference between two groups. It does this by looking at the mean, standard deviations, and sample size of the two groups. The outcome of a t-test is called a t-score which can then be used to calculate a p-value. This test and the terminology involved will be explained in greater detail in a future video.
+* The p-value is the probability that any difference you found between groups is a true difference, meaning the samples are from two different populations.
+* The confidence interval represents the range of values, when applied to the calculated mean, that is believed to hold the true value of the population.

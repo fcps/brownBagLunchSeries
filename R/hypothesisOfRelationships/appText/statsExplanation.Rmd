@@ -1,6 +1,4 @@
 # Quick guide to interpreting the statistical output
-* Explain what a correlation is in broad terms
-* Give generic definition/use case of p-value 
-* Explanation of line of best fit in generic terms
-
-	
+* A correlation is a measure of the strenth of a relationship between two variables within a given population. As one variable (reading score) changes, what happens to the other variable (math score).
+* The p-value is the probability that you would have found this result if there was in fact no relationship between the two variables, the correlation was 0.
+* The line of best fit is a straight line that best represents the data. It will be able to give an idea of the strength and direction of the correlation.
