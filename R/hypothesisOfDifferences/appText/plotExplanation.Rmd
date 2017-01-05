@@ -1,5 +1,6 @@
 # What does the plot in the application tell you?
-* Explain what the plot is showing the user
-* Explain what features they should pay attention to in the plot
-* Give some examples with parameter values that they can repeat that would show cases that don't seem as intuitive
-	
+* The plot below is showing you the distribution curves of the sample data you saw earlier. The blue curve is Group 1, the yellow curve is group 2, and the red is where they overlap.
+* There are many features that are important to pay attention to: First would be the peaks of the two curves, these represent the means of the two groups, second would be the width of the curves which represents the spread of the data, meaning how varied the data is around the mean, and finally how much overlap there is.
+* While two means may appear to be different, it is possible that the two samples have a large amount of overlap, and there is one score artificially inflating the mean.
+* If you set Group 1's parameters to 50 observations, 170 for the AVG test score, and 20 for the standard deviation, and set Group 2's prameters to 50 observations, 270 for the AVG test score, and 20 for the standard deviation, you will see an example of two groups the are most like truly different groups. As you can see there is very little overlap between the curves.
+* If you set Group 1's parameters to 25 observations, 202 for the AVG test score, and 34 for the standard deviation, and set Group 2's prameters to 20 observations, 243 for the AVG test score, and 40 for the standard deviation, you will see a graph that is not so clear. While many would think just from looking at the two means these groups clearly had different score, when you take everything else into account there is clearly a large ammount of overlap. This shows that looking just at means does not give enough information to tell if two groups are truly different.

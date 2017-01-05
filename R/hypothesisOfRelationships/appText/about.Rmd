@@ -1,12 +1,12 @@
 # Hypotheses of Relationships
-Here is some example text to use.  _This would be the place to explain why we created this application_.
+The Hypothesis of Relationships is used to determine the relationship between two variables when looking at a single group, such as do students who score high in reading also score high in math? This involves more than looking at the average scores of the two variables. The purpose of this application is to help build a greater understanding of the necessary parameters and how they interact to answer the question that you have posed.
 
 # How to use the application
 __Explain the values that are allowed and what the parameters do__.
-* Number of Observations - 
-* Average Reading Scores - 
-* Standard Deviation of Reading Scores - 
-* Average Math Scores -
-* Standard Deviation of Math Scores - 
-* Amount of Correlation - 
-* Line of best fit - 
+* Number of Observations - This will represent the number of students in our group. It is important to note that as your number of observations increase your precision increases, meaning you will have less variance.
+* Average Reading Scores - This is your mean score for this group. It is calculated by taking the sum of all of the scores for the group and then dividing by the number of observations.
+* Standard Deviation of Reading Scores - This represents how much the scores vary from the mean, a smaller standard deviation means that the scores are closer to the mean than in a sample with a larger standard deviation.
+* Average Math Scores -This is your mean score for this group. It is calculated by taking the sum of all of the scores for the group and then dividing by the number of observations.
+* Standard Deviation of Math Scores - This represents how much the scores vary from the mean, a smaller standard deviation means that the scores are closer to the mean than in a sample with a larger standard deviation.
+* Amount of Correlation - This is a value between -1 and +1 and represents the direction, positive or negative, and the strength, weak to strong, of the correlation
+* Line of best fit - The line of best fit is a line that is drawn to best represent the slow of the data that is being correlated. It can be used to help see the strength and direction of the correlation.
