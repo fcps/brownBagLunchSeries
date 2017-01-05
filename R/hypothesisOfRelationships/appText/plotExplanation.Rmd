@@ -1,5 +1,53 @@
+# How to read a scatterplot
+* Move from left to right along the x-axis until you are below the mark (dot/point) in the plot you are interested in.  __This is the reading score for the student.__
+
+* Next move up from the x-axis until you reach the mark (dot/point) in the plot you are interested in.  __This is the math score for the same student.__
+
+* This point shows both scores for _an individual student_.
+
 # What does the plot in the application tell you?
-* Explain what the plot is showing the user
-* Explain what features they should pay attention to in the plot
-* Give some examples with parameter values that they can repeat that would show cases that don't seem as intuitive
-* Give some idea about what the line of best fit shows
+
+* The _scatterplot_ below illustrates the data that is simulated by this application.  Each mark (e.g., dot/point) in the plot represents the math and reading scores of an individual.  
+* There are two major things to pay attention to when interpretting a scatterplot:
+
+  1. The overall direction of the marks (dots/points) __and__
+  
+    a. If the points tend to be higher as you move from left to right along the x-axis it would indicate a positive relationship.
+    
+    b. If the points tend to be lower as you move from left to right along the x-axis it would indicate a negative relationship.
+    
+    c. Occassionally the points may form a 'u' or 'n' type shape.  These cases indicate that the relationship between the scores are not _linear_.  
+  
+  2. The overall amount of vertical spread of the marks (dots/points)
+    
+    a. As the marks (dots/points) in the plot are spread apart vertically it means students with a given reading score have a wider variety of math scores - a __weaker relationship between the variables__.
+    
+    b. As the marks (dots/points) in the plot are __NOT__ spread apart vertically it means students with a given reading score have _less variety in their math scores_ - a __stronger relationship between the variables__.
+
+# Example
+
+* On the Use It tab set the following values:
+  
+  1. Number of Observations = 169
+
+  2. Average Reading Test Score = 114
+
+  3. Standard Deviation of Reading Test Scores = 15
+
+  4. Average Math Test Score = 238
+
+  5. Standard Deviation of Math Test Scores = 1
+
+  6. Amount of Correlation between Test Scores = 0.49
+
+* What do you notice about the scatterplot?  
+  
+  a. Is the relationship positive? negative?
+  
+  b. Does it seem like a straight line would summarize things adequately?
+
+* Now click on the "Display the line of best fit" box.
+
+* Has your interpretation changed at all?  
+
+* What happens if you set the "Amount of Correlation between Test Scores" to 0? 0.9? -0.75?

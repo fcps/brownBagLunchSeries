@@ -1,12 +1,27 @@
 # Hypotheses of Relationships
-Here is some example text to use.  _This would be the place to explain why we created this application_.
+Questions that are derived from hypotheses of relationships focus on how values of an outcome (e.g., math test scores) change as values on a predictor (e.g., reading test scores) change.  You might want to know something like:
+
+* Do students who score high in reading also score high in math? 
+* How related are ACCESS scores to KPREP scores?
+* Do scores on the FAST progress monitoring tool predict student performance on NWEA MAP?
+* Do students who answer question 1 correctly tend to score higher on the quiz overall?
+
+In each of these cases, the purpose and goal of the question is to understand how the two measures are related to each other.  
+
+# Learning Goals
+Our goal for this application is to help you gain a deeper understanding of what relationships look like and to give you a framework to use when submitting research/data requests that will help us to serve you more effectively.  The application can also help you to gain a better understanding of what relationships between measures look like and how these relationships vary as a function of the number of students, the averages and standard deviations of test scores, and the strength of the correlation.
 
 # How to use the application
-__Explain the values that are allowed and what the parameters do__.
-* Number of Observations - 
-* Average Reading Scores - 
-* Standard Deviation of Reading Scores - 
-* Average Math Scores -
-* Standard Deviation of Math Scores - 
-* Amount of Correlation - 
-* Line of best fit - 
+__Number of Observations__ - This will represent the number of students in the sample.  _It is important to note that with your data, as your sample size grows (e.g., the number of students with scores increases) the variance of the scores and correlation will get smaller._
+
+__Average Reading Scores__ - This will set the average reading test score for this simulation. 
+
+__Standard Deviation of Reading Scores__ - This will set the amount the reading scores are spread around the average.  Smaller standard deviations indicate that the scores are more similar, while larger values indicate a greater degree of diversity in the scores.
+
+__Average Math Scores__ - This will set the average math test score for this simulation. 
+
+__Standard Deviation of Math Scores__ - This will set the amount the math scores are spread around the average.  Smaller standard deviations indicate that the scores are more similar, while larger values indicate a greater degree of diversity in the scores.
+
+__Amount of Correlation__ - This is a value between -1 and +1 and quantifies the direction and strength of the relationship between the scores.  Positive values indicate that as reading scores increase math scores also increase.  Negative values indicate that as reading scores increase math scores decrease.  A value of 0 means that the two variables are completely unrelated.
+
+__Line of best fit__ - The line of best fit is a line that is drawn to best summarize the relationship of between the two variables.  This is a useful way to summarize the strength and direction of the relationship between the two variables (test scores).

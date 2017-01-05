@@ -1,6 +1,20 @@
 # Quick guide to interpreting the statistical output
-* Explain what a correlation is in broad terms
-* Give generic definition/use case of p-value 
-* Explanation of line of best fit in generic terms
+* Correlation is an __inferential__ statistical method used to estimate the strength and direction of the relationship between two variables.
+    
+    a. __Inferential__ statistics focuses on making generalizations about the population (e.g., all FCPS students) given a sample (e.g., the data for your students) from that population.
+    
+    b. __Descriptive__ statistics focuses on the explanation of the properties of the data from a sample.  For example, the average reading test score for students in your school describes the data from your sample, but does not attempt to make/support any claims about the average reading test score for students across FCPS or Kentucky.
 
-	
+* The number at the bottom of the grey box is the correlation between the two test scores in this example.
+
+    a. Because this is a _sample_ from the _population_ of interest, there is room for error in the estimates.  
+
+    b. The two numbers below the line that reads "95 percent confidence interval:" gives you a range of +/- 95% around the correlation.  In otherwords, if we were to repeat collecting the data exactly the same way from 100 different samples it would be somewhere in this range 95% of the time.
+
+* For now you can think of p-values as a way of quantifying how likely the correlation was observed purely by chance.  
+
+    a. The smaller the p-value the __less likely__ the relationship is purely random.
+
+    b. The higher the p-value the __more likely__ the relationship is purely random.
+    
+* There are several other types of correlations for data measured on different _measurement scales_ but for now we are only going to focus on the case when we have two _continuous_ variables.

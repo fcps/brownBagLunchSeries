@@ -1,3 +1,10 @@
 # Viewing the raw data
-* Explain that these data are simulated based on the values that they provide 
-* The table is sortable and searchable so they can look through different things fairly easily
+* The data you see below are simulated using the values that __you__ set on the Use it tab.
+
+* If you change the values of the sliders in that tab the values here will also change in response.
+
+* Each row in the table represents a single student's test scores in reading and math
+
+* Although the values may not look exactly like the test scores you are most familiar with, the concept is the same.
+
+* You can sort the data based on either column and can also set the number of records that will be displayed
