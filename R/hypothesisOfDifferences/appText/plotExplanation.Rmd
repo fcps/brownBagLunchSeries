@@ -1,5 +1,42 @@
 # What does the plot in the application tell you?
-* Explain what the plot is showing the user
-* Explain what features they should pay attention to in the plot
-* Give some examples with parameter values that they can repeat that would show cases that don't seem as intuitive
-	
+* The plot below shows the distribution of the simulated test scores for each of the two groups.
+
+* The vertical lines in the plot show the _mean_ or _average_ score for each group. _Note: if the data follow a Gaussian distribution the mean will slice the curve in half._
+
+* The two important characteristics to pay attention to with each of the curves/areas are:
+
+  1. __Height__ - This indicates the proportion of the sample with a given score.
+  
+  2. __Width__ - This shows how much variance exists in the scores - or how much diversity there are in the scores.
+
+* Although two means may appear to be different, if there is a sufficient amount of overlap of the two curves the average score may actually not be truly different because of the overlap.
+
+# Example
+
+* On the Use It tab set the following values:
+
+  1. Number of Observations in Group #1 = 75
+
+  2. Average Test Scores for Group #1 = 220
+
+  3. Standard Deviation of Test Scores for Group #1 = 10
+
+  4. Number of Observations in Group #2 = 20
+
+  5. Average Test Scores for Group #2 = 221
+
+  6. Standard Deviation of Test Scores for Group #2 = 40
+
+* What do you notice about the plot?
+
+* Would you say the means between the two groups are truly different?
+
+  1. Would you think these were different if you were only looking at the means?
+  
+  2. What difference does seeing the distributions make to the way you see the results?
+  
+* Try changing the values of "Average Test Score for Group #2" to 231 and "Standard Deviation of Test Scores for Group #2" to 20.
+
+  1. How did those changes affect the results?
+  
+  2. Would you say the difference between the two groups is truly different or not?

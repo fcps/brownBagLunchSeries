@@ -1,10 +1,25 @@
 # Hypotheses of Differences
-Here is some example text to use.  _This would be the place to explain why we created this application_.
+
+Questions that are derived from hypotheses of differences focus on the comparison of one or more groups on an outcome.  You'll know if your question is related to a difference hypothesis if it sounds like:
+
+* How big is the gap between English Learners and non-English Learner students in Math?
+* Was the change in test scores in my class significant between fall and winter sessions of the NWEA MAP assessment?
+* Are there significant gaps between students of different ethnoracial backgrounds on the KPREP assessment in Reading?
+
+In each of these cases, the purpose and goal of the question is to understand whether or not the difference in the outcome is a true difference.  While you may be tempted to only look at the average test scores (or other outcomes) to determine these differences, this application will help to illustrate how and why that is not always sufficient to understand the true differences between groups.  Our purpose is to help you gain a better understanding of how testing for differences works.
+
+# Learning Goals
+Our goal for this application is to help you gain a deeper understanding of what relationships look like and to give you a framework to use when submitting research/data requests that will help us to serve you more effectively. The application can also help you to gain a better understanding of what we are really testing to determine whether or not there are true differences in an outcome between groups and how the difference varies as a function of the number of students, the average scores, and standard deviations of test scores of the two groups of interest.
 
 # How to use the application
-__Explain the values that are allowed and what the parameters do__.
-* Number of Observations - 
-* Average Test Score - 
-* Standard Deviation of Test Score - 
-	
-	
+__Number of Observations in Group #1__ - This defines the number of students in the baseline group.  _Note: Outside of this type of simulation the amount of variance that you would observe would decrease as the number of observations increases._
+
+__Average Test Score for Group #1__ - This is the average test score for the baseline group.  _Note: In smaller samples the average is easily influenced by extreme values._ 
+
+__Standard Deviation of Test Scores for Group #1__ - This is the average amount that scores are spread from the average in the baseline group.  Higher values mean there is less similarity in the test scores (_heterogeneity_), while lower values mean there is more similarity in the test scores (_homogeneity_).
+
+__Number of Observations in Group #2__ - This defines the number of students in the comparison group.  _Note: Outside of this type of simulation the amount of variance that you would observe would decrease as the number of observations increases._
+
+__Average Test Score for Group #2__ - This is the average test score for the comparison group.  _Note: In smaller samples the average is easily influenced by extreme values._ 
+
+__Standard Deviation of Test Scores for Group #2__ - This is the average amount that scores are spread from the average in the comparison group.  Higher values mean there is less similarity in the test scores (_heterogeneity_), while lower values mean there is more similarity in the test scores (_homogeneity_).

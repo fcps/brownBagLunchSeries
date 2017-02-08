@@ -1,0 +1,240 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Nominal Measurement Scales</title>
+
+	<link rel="stylesheet" href="../../css/reveal.css">
+	<link rel="stylesheet" href="../../css/theme/white.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="../../lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? '../../css/print/pdf.css' : '../../css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+
+
+</head>
+<body>
+<div class="reveal">
+	<div class="slides">
+		<section>
+			<h1>Measurement 101</h1><br>
+			<h2>Nominal Scales</h2><br>
+		</section>
+		<section>
+			<h2>Learning Objectives</h2>
+			<ul>
+				<li>By the end of this video you should know: </li>
+				<ol>
+					<li>How to recognize a nominal scale</li>
+					<li>Understand what math you can use on a nominal scale</li>
+					<li>Why we use nominal scales</li>
+				</ol>
+			</ul>
+		</section>
+		<section>
+			<h1>A Bit of Math</h1>
+			<section>
+				<ol>
+					<li>Either $a = b$ OR  $a \neq b$ </li>
+					<li>If $a = b$ then $b = a$</li>
+					<li>If $a = b$ & $b = c$ then $a = c$</li>
+				</ol>
+			</section>
+			<section>
+				<h2>Either <math>a &#x229C; b</math> or not</h2><br>
+				<ul>
+					<li>This means we can test whether or not a value is equal to another value.</li>
+					<li>It also means that values in a nominal scale are mutually exclusive.</li>
+				</ul>
+			</section>
+			<section>
+				<h2>If <math>a &#x229C; b</math> then <math>b &#x229C; a</math></h2>
+				<ul>
+					<li>The notational change here is related to set theory.</li>
+					<li>Basically if there are two categories of a group this means we can map any number to the category and it will not convey any meaning</li>
+				</ul>
+			</section>
+			<section>
+				<h2>If <math>a &#x229C; b</math> and <math>b &#x229C; c</math> then <math>a &#x229C; c</math></h2>
+				<ul>
+					<li>This generalizes the previous rule to cases where there are more than two groups</li>
+				</ul>
+			</section>
+		</section>
+		<section>
+			<h1>What is a nominal scale</h1>
+			<ul>
+				<li>A mapping of numeric values to categories of like groups</li>
+				<li>Because stats and math relies on numbers for computation we need a way to represent groups numerically</li>
+				<li>For a nominal scale, the numeric values only serve to identify a specific category</li>
+			</ul>
+		</section>
+		<section>
+			<h2>Learning Check</h2>
+			<section>
+				<ol>
+					<li>On the next screen you'll see a table with two columns</li>
+					<li>Identify which values in column 1 could be used to construct a nominal scale</li>
+					<li>Assign each unique value from column 1 a unique integer value in column 2 if it would be part of your nominal scale</li>
+					<li>Leave the value of column 2 blank if that row would not be used in your nominal scale</li>
+				</ol>
+				<aside class="notes">
+					<ul>
+						<li>This is where I need to have index cards prepped to use manipulatives in the video</li>
+						<li>Get Michael Owen to be the person who moves the index cards into two separate columns</li>
+					</ul>
+				</aside>
+			</section>
+			<br><br>
+			<section>
+				<table>
+					<th>List 1</th><th>List 2</th>
+					<tr>
+						<td>BMW</td><td></td>
+					</tr>
+					<tr>
+						<td>banana</td><td></td>
+					</tr>
+					<tr>
+						<td>Ford</td><td></td>
+					</tr>
+					<tr>
+						<td>cat</td><td></td>
+					</tr>
+					<tr>
+						<td>GM</td><td></td>
+					</tr>
+					<tr>
+						<td>Volvo</td><td></td>
+					</tr>
+					<tr>
+						<td>Ford</td><td></td>
+					</tr>
+				</table>
+			</section>
+			<br><br>
+			<section>
+				<table>
+					<th>List 1</th><th>List 2</th>
+					<tr>
+						<td>BMW</td><td bgcolor="#7fff00">1</td>
+					</tr>
+					<tr>
+						<td>banana</td><td bgcolor="orange"></td>
+					</tr>
+					<tr>
+						<td>Ford</td><td bgcolor="#7fff00">2</td>
+					</tr>
+					<tr>
+						<td>cat</td><td bgcolor="#4b0082"></td>
+					</tr>
+					<tr>
+						<td>GM</td><td bgcolor="#7fff00">3</td>
+					</tr>
+					<tr>
+						<td>Volvo</td><td bgcolor="#7fff00">4</td>
+					</tr>
+					<tr>
+						<td>Ford</td><td bgcolor="#7fff00">2</td>
+					</tr>
+				</table>
+				<aside class="notes">
+					<ul>
+						<li>Here the colors purple and orange are used to show that each of the incorrect answers are distinctly different nominal scales</li>
+						<li>Yes we could say that cats and bananas are both living things, but for all intents and purposes they would almost always be treated as incomparable objects</li>
+					</ul>
+				</aside>
+			</section>
+			<br><br>
+			<section>
+				<table>
+					<th>List 1</th><th>List 2</th>
+					<tr>
+						<td>BMW</td><td bgcolor="#7fff00">5</td>
+					</tr>
+					<tr>
+						<td>banana</td><td bgcolor="orange"></td>
+					</tr>
+					<tr>
+						<td>Ford</td><td bgcolor="#7fff00">8</td>
+					</tr>
+					<tr>
+						<td>cat</td><td bgcolor="#4b0082"></td>
+					</tr>
+					<tr>
+						<td>GM</td><td bgcolor="#7fff00">1</td>
+					</tr>
+					<tr>
+						<td>Volvo</td><td bgcolor="#7fff00">2</td>
+					</tr>
+					<tr>
+						<td>Ford</td><td bgcolor="#7fff00">8</td>
+					</tr>
+				</table>
+				<aside class="notes">
+					<ul>
+						<li>Notice the numbers changed, but the colors didn't</li>
+						<li>This is to help reinforce the idea that for a nominal scale the numbers have no inherent meaning beyond identifying the category</li>
+					</ul>
+				</aside>
+			</section>
+			<section>
+				<ul>
+					<li>BMW, Ford, GM, and Volvo could all be included in a nominal scale because they are all automobile manufacturers (e.g., like objects)</li>
+					<li>Since bananas and cats are not auto manufacturers they are not comparable and could not be included in the same scale</li>
+					<li>As long as the data in the nominal scale can be meaningfully grouped into a single concept it will work to allow you to identify those categories</li>
+				</ul>
+				<aside class="notes">
+					<ul>
+						<li>Nominal scales are either used to identify a category without any natural ordering to it</li>
+						<li>Or they are used in the dichotomous was to indicate correct/incorrect values or something analogous</li>
+					</ul>
+				</aside>
+			</section>
+		</section>
+		<section>
+			<h2>Other Information</h2>
+			<ul>
+				<li>Some nominal scales only have two values (e.g., Male/Female, Correct/Incorrect, etc...)</li>
+				<li>These variables are sometimes called binary or dichotomous (e.g., 0/1) variables</li>
+				<li>These values can be transformed using any 1:1 mapping (e.g., the numbers only need to identify unique categories)</li>
+			</ul>
+		</section>
+	</div>
+</div>
+
+<script src="../../lib/js/head.min.js"></script>
+<script src="../../js/reveal.js"></script>
+<script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        history: true,
+
+        math: {
+            mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+            config: 'TeX-AMS_HTML'  // See http://docs.mathjax.org/en/latest/config-files.html
+        },
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            { src: '../../plugin/markdown/marked.js' },
+            { src: '../../plugin/markdown/markdown.js' },
+            { src: '../../plugin/math/math.js', async: true },
+            { src: '../../plugin/notes/notes.js', async: true },
+            { src: '../../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+    });
+</script>
+
+</body>
+</html>

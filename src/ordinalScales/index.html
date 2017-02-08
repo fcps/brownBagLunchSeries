@@ -1,0 +1,288 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Ordinal Measurement Scales</title>
+
+	<link rel="stylesheet" href="../../css/reveal.css">
+	<link rel="stylesheet" href="../../css/theme/white.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="../../lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? '../../css/print/pdf.css' : '../../css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+</head>
+<body>
+<div class="reveal">
+	<div class="slides">
+		<section>
+			<h1>Measurement 101</h1><br>
+			<h2>Ordinal Scales</h2><br>
+		</section>
+		<section>
+			<h2>Learning Objectives</h2>
+			<ul>
+				<li>By the end of this video you should know: </li>
+				<ol>
+					<li>How to recognize an ordinal scale</li>
+					<li>Understand what math you can use on an ordinal scale</li>
+					<li>What an ordinal scale is</li>
+					<li>How to transform a ranking to an ordinal scale and back</li>
+				</ol>
+			</ul>
+			<aside class="notes">
+				<ul>
+					<li>Ordinal scales are particularly important in education since they lay the foundation for the majority of the measurement we do</li>
+					<li>Unfortunately, people tend to not be too aware of the ordinal scale and treat them like real numbers... :(</li>
+					<li>Ordinal scales do still provide value when trying to measure things</li>
+				</ul>
+			</aside>
+		</section>
+
+		<section>
+			<h1>A Bit of Math</h1>
+			<section>
+				<ol>
+					<li>IF $a \gt b$ THEN $a \not\le b$</li>
+					<li>IF $a \gt b$ AND $b \gt c$ THEN $a \gt c$</li>
+				</ol>
+			</section>
+			<section>
+				<br><br>
+				<h2>IF <math>a &#x29C1; b</math> THEN IT IS NOT TRUE THAT <math>b &#x29C1; a</math></h2><br>
+				<ul>
+					<li>Unlike the <a href="../nominalScales/index.html">Nominal Scale</a>, the ordinal scale places the values in some <strong>order</strong> based on magnitude</li>
+				</ul>
+				<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/line -->
+
+				<!-- Learn about this code on MDN: https://developer.mozilla.org/en-US/docs/Web/SVG/Element/line -->
+				<svg width="75%" height="75%" viewBox="0 0 135 80"
+					 xmlns="http://www.w3.org/2000/svg"
+					 xmlns:xlink="http://www.w3.org/1999/xlink">
+					<defs>
+						<path d="M 0 10 125 10 z" id="linea"
+							  stroke="black" stroke-width="1" />
+						<path d="M 0 25 64 25 z" id="lineb"
+							  stroke="black" stroke-width="1" />
+						<path d="M 64 40 104 40 z" id="linec"
+							  stroke="black" stroke-width="1" />
+					</defs>
+					<use xlink:href="#linea"/>
+					<text font-size="12" font-family="Verdana" x="62.5" y="10" stroke="none" fill="black">
+						<textPath xlink:href="#linea" startOffset="0%" text-anchor="middle">A</textPath>
+					</text>
+					<use xlink:href="#lineb"/>
+					<text font-size="12" font-family="Verdana" x="32" y="25" stroke="none" fill="black">
+						<textPath xlink:href="#lineb" startOffset="0%" text-anchor="middle">B</textPath>
+					</text>
+				</svg>
+			</section>
+			<section>
+				<br><br>
+				<h2>IF <math>a &#x29C1; b</math> AND <math>b &#x29C1; c</math> THEN <math>a &#x29C1; c</math></h2>
+				<svg width="75%" height="75%" viewBox="0 0 135 80"
+					 xmlns="http://www.w3.org/2000/svg"
+					 xmlns:xlink="http://www.w3.org/1999/xlink">
+					<defs>
+						<path d="M 0 40 125 40 z" id="linea2"
+							  stroke="black" stroke-width="1" />
+						<path d="M 0 10 64 10 z" id="lineb2"
+							  stroke="black" stroke-width="1" />
+						<path d="M 0 25 40 25 z" id="linec2"
+							  stroke="black" stroke-width="1" />
+					</defs>
+					<use xlink:href="#lineb2"/>
+					<text font-size="12" font-family="Verdana" x="32" y="10" stroke="none" fill="black">
+						<textPath xlink:href="#lineb2" startOffset="0%" text-anchor="middle">B</textPath>
+					</text>
+					<use xlink:href="#linec2"/>
+					<text font-size="12" font-family="Verdana" x="20" y="25" stroke="none" fill="black">
+						<textPath xlink:href="#linec2" startOffset="0%" text-anchor="middle">C</textPath>
+					</text>
+					<use xlink:href="#linea2"/>
+					<text font-size="12" font-family="Verdana" x="62.5" y="40" stroke="none" fill="black">
+						<textPath xlink:href="#linea2" startOffset="0%" text-anchor="middle">A</textPath>
+					</text>
+
+				</svg>
+			</section>
+			<section>
+				<br><br>
+				<ul>
+					<li>As you've likely noticed, the only math we've discussed thus far is testing <em>magnitudes</em></li>
+					<li><strong>There are no other arithmatic operations defined for ordinal scales</strong></li>
+					<li><strong>The sum of values from ordinal scales is not mathematically defined</strong></li>
+					<li>Summing values requires assumptions about the measurement scale and nature of the numeric values</li>
+					<li>In the slide before, how would you meaningfully describe the sum of B and C?</li>
+				</ul>
+				<aside class="notes">
+					<ul>
+						<li>This is a regularly overlooked issue with measurement, particularly when there are few categories</li>
+						<li>As the number of categories approaches infinity we can treat the values like intervallic values with minimum distortion</li>
+						<li>If the scale is strongly disagree to strongly agree, how would you interpret a value of 2.54 without making a lot of strong assumptions about the nature of the measurement scale and respondents?</li>
+					</ul>
+				</aside>
+			</section>
+		</section>
+		<section>
+			<h2>What is an ordinal scale</h2>
+			<section>
+				<ul>
+					<li>Ordinal scales are used order values based on magnitude.</li>
+					<li>Rankings serve a similar purpose but the direction of the numbers is reversed.</li>
+					<li>If you've ever used a grading rubric, you're already familiar with how ordinal measurement scales are used.</li>
+				</ul>
+				<aside class="notes">
+					<ul>
+						<li>Rubrics are a great example, but in some cases the rubric design may add additional problems to the measurement</li>
+						<li>One major issue with rubric design is avoiding multidimensional criterion</li>
+						<li>In other words, a higher score for an indicator should only depend on an increase in magnitude in a single dimension.</li>
+					</ul>
+				</aside>
+			</section>
+			<section>
+				<br>
+				<ul>
+					<li>Like <a href="../nominalScales/index.html">Nominal scales</a>, ordinal scales must also represent a single dimension</li>
+					<table>
+						<th> </th><th colspan="4" align="center">Point Value</th>
+						<tr>
+							<td>ID</td><td>1</td><td>2</td><td>3</td><td>4</td>
+						</tr>
+						<tr style="color: orange; background-color: navy">
+							<td>1</td><td>Strongly Disagree</td><td>Sometimes</td><td>Agree</td><td>Always</td>
+						</tr>
+						<tr>
+							<td>2</td><td>Strongly Disagree</td><td>Disagree</td><td>Agree</td><td>Strongly Agree</td>
+						</tr>
+						<tr>
+							<td>3</td><td>Never</td><td>Sometimes</td><td>Often</td><td>Always</td>
+						</tr>
+					</table>
+				</ul>
+				<aside class="notes">
+					<ul>
+						<li>The highlighted row shows the problematic ordinal scale</li>
+						<li>Even though the labels represent increasing amounts, they are measuring two different dimensions (agreement and frequency)</li>
+					</ul>
+				</aside>
+			</section>
+			<section>
+				<ul>
+					<li>Just because the numbers indicate the order of magnitude does not mean they are equally spaced:</li>
+				</ul>
+				<br>
+				<img src="img/ordScaleExample.svg"/>
+				<aside class="notes">
+					<ul>
+						<li>I think we can generally say the distance between consecutive negative/affirmative responses is consistently smaller than the distance between negative and affirmative responses</li>
+						<li>In otherwords, there may not be as much differentiating between agreeing and strongly agreeing compared to agreeing and disagreeing</li>
+					</ul>
+				</aside>
+			</section>
+		</section>
+		<section>
+			<h2>Ordinal Scales and Rankings</h2>
+			<br>
+			<section>
+				<ul>
+					<li>Transformations between rankings and ordinal scales are fairly easy.</li>
+					<li>The difference between an ordinal scale and a ranking is the interpretation of the values.</li>
+					<li>In a ranking a lower number indicates a greater amount of the quantity being measured.</li>
+					<li>In an ordinal scale a higher number indicates a greater amount of the quantity being measured.</li>
+				</ul>
+			</section>
+			<section>
+				<ul>
+					<li>Here's our data $x = [1, 4, 2, 3]$</li>
+					<ol>
+						<li>$\alpha = x_{\max}$</li>
+						<li>$(\alpha + 1) - x_{i}$</li>
+						<li>$x' = [(4 + 1) - 1, (4 + 1) - 4, (4 + 1) - 2, (4 + 1) - 3]$</li>
+						<li>$x' = [4, 1, 3, 2]$</li>
+					</ol>
+					<li>This reverses the order of the integers to transform between ordinal and rankings</li>
+				</ul>
+			</section>
+			<aside class="notes">
+				<ul>
+					<li>This assumes that the highest observed value is the highest possible value for the scale</li>
+				</ul>
+			</aside>
+		</section>
+		<section>
+			<h2>Learning Check</h2>
+			<section>
+				<ol>
+					<li>You have rankings of students on a large scale test.  Transform these rankings into an ordinal scale
+					$test = \{1, 2, 4, 6, 8, 9, 10\}$</li>
+					<li>Select only the elements that form an ordinal scale from: $\{agree, far, hungry, disagree, red, neutral\}$ </li>
+					<li><strong>True or False</strong>.  You can take the average of ordinal scale values.</li>
+				</ol>
+			</section>
+
+			<section>
+				<ol>
+					<li>$test = \{10, 9, 7, 5, 3, 2, 1\}$</li>
+					<li>$\{disagree, neutral, agree\}$</li>
+					<li><strong style="font-size: 128px">FALSE!!!</strong></li>
+				</ol>
+				<aside class="notes">
+					<ul>
+						<li>Remember the transformation is: (MaxValue + 1) - Individual Value</li>
+						<li>This forms an ordinal scale of agreement</li>
+						<li>Since addition is not mathematically defined on this scale taking the average would not be possible.</li>
+					</ul>
+				</aside>
+			</section>
+		</section>
+		<section>
+			<h2>Other Information</h2>
+			<ul>
+				<li>Binary/Dichotmous data can be considered a special case of ordinal data with only two values.</li>
+				<li>You can transform the values pretty easily as long as you preserve the order relationship.</li>
+			</ul>
+			<aside class="notes">
+				<ul>
+					<li>This distinction will be important later when we discuss other concepts in measurement.</li>
+				</ul>
+			</aside>
+		</section>
+
+	</div>
+</div>
+
+<script src="../../lib/js/head.min.js"></script>
+<script src="../../js/reveal.js"></script>
+
+<script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        history: true,
+
+        math: {
+            mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+            config: 'TeX-AMS_HTML'  // See http://docs.mathjax.org/en/latest/config-files.html
+        },
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            { src: '../../plugin/markdown/marked.js' },
+            { src: '../../plugin/markdown/markdown.js' },
+            { src: '../../plugin/math/math.js', async: true },
+            { src: '../../plugin/notes/notes.js', async: true },
+            { src: '../../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+    });
+</script>
+</body>
+</html>

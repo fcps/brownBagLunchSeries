@@ -1,5 +1,22 @@
 # Quick guide to interpreting the statistical output
-* Explain what a t-test is in broad terms
-* Give generic definition/use case of p-value
+* We only show a simple example with two groups.  As the number of groups extends beyond two groups the methods become a bit more sophisticated.
 
-	
+* A t-test is an __inferential__ statistical method used to estimate the difference in the average between one or two groups.
+
+  a. It can be used to compare the difference in two outcomes from a single group.
+  
+  b. It can also be used to compare the differences in one outcome between two groups.
+
+* The numbers at the bottom of the grey box show the average scores for each of the groups.
+
+  a. Because this is a _sample_ from the _population_ of interest, there is room for error in the estimates.
+  
+  b. The two numbers below the line that reads "95 percent confidence interval:" gives you a range of +/- 95% around the __difference of the average score between the two groups__. In otherwords, if we were to repeat collecting the data exactly the same way from 100 different samples it would be somewhere in this range 95% of the time.
+
+* For now you can think of p-values as a way of quantifying how likely the difference in average scores were observed purely by chance.
+
+  a. The smaller the p-value the __less likely__ the relationship is purely random.
+  
+  b. The smaller the p-value the __more likely__ the relationship is purely random.
+
+* The confidence interval represents the range of values, when applied to the calculated mean, that is believed to hold the true value of the population.

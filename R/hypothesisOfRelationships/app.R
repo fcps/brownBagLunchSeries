@@ -127,7 +127,8 @@ server <- function(input, output) {
 			  axis.title.y = element_text(size = 16, color = "Black"),			  
 			  axis.text.y = element_text(size = 12, color = "Black"))
 	
-    	if (input$regLine == TRUE) basePlot <- basePlot + geom_smooth(method = "loess", show.legend = TRUE)
+    	if (input$regLine == TRUE) basePlot <- basePlot + #
+    			geom_smooth(method = "loess", show.legend = TRUE)
    		
     	basePlot 
     	
@@ -149,7 +150,7 @@ server <- function(input, output) {
    	output$rawestData <- renderDataTable(dataset(), options = list(pageLength = 200))
    	
 	# Returns a function that contains the results of a t-test
-   	output$ttestResults <- renderPrint(theTest())
+   	output$corrResults <- renderPrint(theTest())
 
    	output$exampleTestResults <- renderPrint(theTest())
    

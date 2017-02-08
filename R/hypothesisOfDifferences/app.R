@@ -98,9 +98,16 @@ server <- function(input, output) {
    	}) # End of function to simulate the data
 	
 	thePlot <- reactive({
+		
+		theData <- dataset()
+		
+		g1mu <- mean(theData[theData$group == "Group 1", 2])
+		
+		g2mu <- mean(theData[theData$group == "Group 2", 2])
+		
    		# Defines the data to use for the graph/plot and how the variables in 
    		# the data set should be mapped to features of the graph/plot
-    	ggplot(dataset(), aes(x = score, fill = group)) + 
+    	ggplot(theData, aes(x = score, fill = group)) + 
    		
    		# Defines the type of mark that should be used to display the data
    		geom_density(alpha = 0.35) +
@@ -118,7 +125,7 @@ server <- function(input, output) {
 		breaks = c("Group 1", "Group 2"), name = "Student Groups") +   
    		
    		# Defines how to generate the scale for the x axis
-   		scale_x_continuous(breaks = seq(100, 300, 10)) + 
+   		scale_x_continuous(breaks = seq(100, 300, 20)) + 
    		
    		# Defines other aesthetic properties of the graph/plot
    		theme(panel.background = element_rect(fill = "White"),  		   
@@ -129,8 +136,12 @@ server <- function(input, output) {
 			  axis.title.x = element_text(size = 20, color = "Black"),
 			  axis.text.x = element_text(size = 16, color = "Black"),
 			  axis.title.y = element_text(size = 16, color = "Black"),			  
-			  axis.text.y = element_text(size = 12, color = "Black"))
-
+			  axis.text.y = element_text(size = 12, color = "Black")) +
+    		
+    	geom_vline(xintercept = g1mu, colour = "#0000FF", alpha = 0.95) + 
+    		
+		geom_vline(xintercept = g2mu, colour = "#FF9900", alpha = 0.95)
+    		
 	}) # End of function to generate the graph showing the overlap of the distributions
 
    	theTest <- reactive({

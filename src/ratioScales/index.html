@@ -1,0 +1,169 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>Ratio Measurement Scales</title>
+
+	<link rel="stylesheet" href="../../css/reveal.css">
+	<link rel="stylesheet" href="../../css/theme/white.css">
+
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="../../lib/css/zenburn.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+        var link = document.createElement( 'link' );
+        link.rel = 'stylesheet';
+        link.type = 'text/css';
+        link.href = window.location.search.match( /print-pdf/gi ) ? '../../css/print/pdf.css' : '../../css/print/paper.css';
+        document.getElementsByTagName( 'head' )[0].appendChild( link );
+	</script>
+</head>
+<body>
+<div class="reveal">
+	<div class="slides">
+		<section>
+			<h1>Measurement 101</h1><br>
+			<h2>Ratio Scales</h2><br>
+		</section>
+		<section>
+			<h2>Learning Objectives</h2>
+			<ul>
+				<li>By the end of this video you should know: </li>
+				<ol>
+					<li>What a ratio scale is</li>
+					<li>Understand the math you can use on a ratio scale</li>
+					<li>What is so special about ratio scales</li>
+				</ol>
+			</ul>
+			<aside class="notes">
+				<ul>
+					<li></li>
+					<li></li>
+				</ul>
+			</aside>
+		</section>
+
+		<section>
+			<h1>A Bit of Math</h1>
+			<section>
+				<ol>
+					<li>$a + 0 = a$</li>
+					<li>If $a = c$ AND $b \gt 0$ THEN $a + b \gt c$</li>
+				</ol>
+			</section>
+			<section>
+				<h2><math>a &#x2295; 0 &#x229C; a</math></h2><br>
+				<ul>
+					<li>Unlike the <a href="../intervallicScales/index.html">Intervallic Scale</a>, the ratio scale has a true zero</li>
+					<li>This is known as the <em>Additive Identity</em></li>
+					<li>This means that the value of zero is fixed and has a single meaning (e.g., the lack of a quantity)</li>
+				</ul>
+				<aside class="notes">
+					<ul>
+						<li></li>
+						<li></li>
+					</ul>
+				</aside>
+			</section>
+			<section>
+				<h2>If <math>a &#x229C; c</math> AND <math>b &#x29C1; 0</math> THEN <math>a &#x2295; b &#x29C1; c</math></h2>
+				<ul>
+					<li>This property constrains the distance between the integers to be equal by fixing the location of 0</li>
+					<li>The converse would also be true (e.g., if <math>b < 0</math> then <math> a + b < c</math></li>
+				</ul>
+			</section>
+		</section>
+		<section>
+			<h1>What is a ratio scale</h1>
+			<ul>
+				<li>This is what you would typically think of when using numbers in everyday situations</li>
+				<li></li>
+				<li></li>
+			</ul>
+			<aside class="notes">
+				<ul>
+					<li></li>
+				</ul>
+			</aside>
+		</section>
+		<section>
+			<h2>Learning Check</h2>
+			<section>
+				<ol>
+					<li></li>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ol>
+				<aside class="notes">
+					<ul>
+						<li></li>
+						<li></li>
+					</ul>
+				</aside>
+			</section>
+			<section>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<aside class="notes">
+					<ul>
+						<li></li>
+						<li></li>
+					</ul>
+				</aside>
+			</section>
+			<section>
+				<ul>
+					<li></li>
+					<li></li>
+					<li></li>
+				</ul>
+				<aside class="notes">
+					<ul>
+						<li></li>
+						<li></li>
+					</ul>
+				</aside>
+			</section>
+		</section>
+		<section>
+			<h2>Additional Information</h2>
+			<ul>
+				<li>Can use any ratio transformation (e.g., can multiply/divide)</li>
+			</ul>
+		</section>
+
+	</div>
+</div>
+
+<script src="../../lib/js/head.min.js"></script>
+<script src="../../js/reveal.js"></script>
+
+<script>
+    // More info https://github.com/hakimel/reveal.js#configuration
+    Reveal.initialize({
+        history: true,
+
+        math: {
+            mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+            config: 'TeX-AMS_HTML'  // See http://docs.mathjax.org/en/latest/config-files.html
+        },
+
+        // More info https://github.com/hakimel/reveal.js#dependencies
+        dependencies: [
+            { src: '../../plugin/markdown/marked.js' },
+            { src: '../../plugin/markdown/markdown.js' },
+            { src: '../../plugin/math/math.js', async: true },
+            { src: '../../plugin/notes/notes.js', async: true },
+            { src: '../../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+        ]
+    });
+</script>
+</body>
+</html>

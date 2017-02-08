@@ -1,3 +1,13 @@
 # Viewing the raw data
-* Explain that these data are simulated based on the values that they provide using a Gaussian distribution (you can reference that this is what people actually mean when saying "Bell Curve")
-* The table is sortable and searchable so they can look through different things fairly easily
+* The data you see below are simulated using the values that __you__ set on the Use it tab.
+
+* If you change the values of the sliders in that tab the values here will also change in response.
+
+* Each row in the table represents a single student's test score and the group to which they belong.
+
+* Although the values may not look exactly like the test scores you are most familiar with, the concept is the same.
+
+* You can sort the data based on either column and can also set the number of records that will be displayed.
+
+* These data for each group is simulated from a _Gaussian distribution_, or what you may know as "the Bell Curve".
+

@@ -1,0 +1,200 @@
+<!doctype html>
+<!--suppress ALL -->
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Intervallic Measurement Scales</title>
+
+		<link rel="stylesheet" href="../../css/reveal.css">
+		<link rel="stylesheet" href="../../css/theme/white.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="../../lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? '../../css/print/pdf.css' : '../../css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Measurement 101</h1><br>
+					<h2>Intervallic Scales</h2><br>
+				</section>
+				<section>
+					<h2>Learning Objectives</h2>
+					<ul>
+						<li>By the end of this video you should know: </li>
+						<ol>
+							<li>What an intervallic scale is</li>
+							<li>Understand the math you can use on an intervallic scale</li>
+							<li>What we measure using intervallic scales</li>
+						</ol>
+					</ul>
+					<aside class="notes">
+						<ul>
+							<li>Interval scales are where the abstract meets the common understanding of the numbers</li>
+							<li>The challenging part of all of this is understanding that the number 0 is not a true zero on an intervallic scale</li>
+						</ul>
+					</aside>
+				</section>
+
+				<section>
+					<h1>A Bit of Math</h1>
+					<section>
+						<ol>
+							<li>$a + b = b + a$</li>
+							<li>If $a = c$ AND $b = d$ THEN $a + b = c + d$</li>
+							<li>$(a + b) + c = a + (b + c)$</li>
+						</ol>
+					</section>
+					<section>
+						<br><br>
+						<h2><math>a &#x2295; b &#x229C; b &#x2295; a</math></h2>
+						<ul>
+							<li>Unlike the <a href="../ordinalScales/index.html">Ordinal Scale</a>, combination rules exist on the intervallic scale</li>
+							<li>This first rule is the <em>Commutative Property of Addition</em></li>
+							<li>We can sum the values of two variables measured on an intervallic scale in any order to get the same result</li>
+						</ul>
+					</section>
+					<section>
+						<br><br>
+						<h2>If <math>a &#x229C; c</math> AND <math>b &#x229C; d</math><br> THEN <math>a &#x2295; b &#x229C; c &#x2295; d</math></h2>
+						<ul>
+							<li>This is the <em>Transitive Property of Equality</em></li>
+							<li>If variables are equivalent combining those variables will also be equivalent</li>
+							<li>This property is also allows us to define subtraction</li>
+						</ul>
+					</section>
+					<section>
+						<h2><math>(a &#x2295; b) &#x2295; c &#x229C; a &#x2295; (b &#x2295; c)</math></h2>
+						<ul>
+							<li>This is known as the <em>Associative Property</em></li>
+							<li>The grouping will not affect the sum of the values if the variables appear in the same order</li>
+						</ul>
+					</section>
+				</section>
+				<section>
+					<h2>What is an intervallic scale</h2>
+					<section>
+						<ul>
+							<li>It is a measurement scale that does not have a defined true zero</li>
+							<li>Some assessments are capable of producing intervallic scales (e.g., NWEA MAP)</li>
+							<li>The location of 0 is arbitrary (e.g., can mean something other than no quantity)</li>
+							<li>How about an example?</li>
+						</ul>
+						<aside class="notes">
+							<ul>
+								<li>Explain arbitrary zero</li>
+								<li>Some times zero does not exist in the scale like the weight of humans</li>
+								<li>Other times the value of zero has a different meaning than a lack of the quantity</li>
+							</ul>
+						</aside>
+					</section>
+					<section>
+						<table>
+							<tr style="border-bottom: hidden">
+								<td></td><td>Grade 3</td><td>KY Average</td><td>KY Std</td><td> <u>(Score - KY Avg)</u></td>
+							</tr>
+							<tr>
+								<td>ID</td><td>Reading</td><td>Score</td><td>Dev</td><td>KY Std Dev</td>
+							</tr>
+							<tr>
+								<td>1</td><td>215</td><td>210.76</td><td>19.6</td><td style="background-color: #17ff2e">0.216</td>
+							</tr>
+							<tr>
+								<td>2</td><td>171</td><td>210.76</td><td>19.6</td><td>-2.028</td>
+							</tr>
+							<tr>
+								<td>3</td><td>152</td><td>210.76</td><td>19.6</td><td>-2.997</td>
+							</tr>
+							<tr>
+								<td>4</td><td>210</td><td>210.76</td><td>19.6</td><td style="background-color: #17ff2e">-0.038</td>
+							</tr>
+							<tr>
+								<td>5</td><td>247</td><td>210.76</td><td>19.6</td><td>1.848</td>
+							</tr>
+							<tr>
+								<td colspan="5" style="font-size: 14px">Means and Standard Deviations retrieved from <a href="http://education.ky.gov/AA/KTS/Documents/2015-2016%20K-PREP%20Yearbook%201%201.pdf">KPREP Yearbook 2016</a> p.85</td>
+							</tr>
+						</table>
+						<aside class="notes">
+							<ul>
+								<li>Last column is also called a z-score</li>
+							</ul>
+						</aside>
+					</section>
+				</section>
+				<section>
+					<h2>Learning Check</h2>
+					<section>
+						<ol>
+							<li>What two pieces of information do you need to take your intervallic scale and transform it into a z-score?</li>
+							<li><strong>TRUE or FALSE</strong> the value 0 means that there is no amount of the quantity being measured on an intervallic scale.</li>
+							<li>Name 1 assessment that students currently take 3 times per year that uses an intervallic scale for the scaled scores</li>
+						</ol>
+						<aside class="notes">
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</aside>
+					</section>
+					<section>
+						<ol>
+							<li>The mean - or average - and standard deviation</li>
+							<li>FALSE.  The value 0 doesn't have a fixed location on the intervallic scale.  I can literally mean any thing you want it to mean.</li>
+							<li>NWEA MAP</li>
+						</ol>
+						<aside class="notes">
+							<ul>
+								<li></li>
+								<li></li>
+							</ul>
+						</aside>
+					</section>
+
+				</section>
+				<section>
+					<h2>Additional Information</h2>
+					<ul>
+						<li>Only one more video left for measurement scales</li>
+						<li>Knowing the math underneath the scales will help you better interpret/understand your data</li>
+					</ul>
+				</section>
+			</div>
+		</div>
+
+		<script src="../../lib/js/head.min.js"></script>
+		<script src="../../js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+                math: {
+                    mathjax: 'https://cdn.mathjax.org/mathjax/latest/MathJax.js',
+                    config: 'TeX-AMS_HTML'  // See http://docs.mathjax.org/en/latest/config-files.html
+                },
+
+                // More info https://github.com/hakimel/reveal.js#dependencies
+                dependencies: [
+                    { src: '../../plugin/markdown/marked.js' },
+                    { src: '../../plugin/markdown/markdown.js' },
+                    { src: '../../plugin/math/math.js', async: true },
+                    { src: '../../plugin/notes/notes.js', async: true },
+                    { src: '../../plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

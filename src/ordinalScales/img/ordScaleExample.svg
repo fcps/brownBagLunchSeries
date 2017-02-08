@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="500px" height="300px" viewBox="0 0 500 300" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
+  <defs>
+    <style id="bx-google-fonts">@import url(https://fonts.googleapis.com/css?family=Amiko:400,600,700);</style>
+  </defs>
+  <path d="M 20 75 L 470.184 77.899" style="stroke: rgb(0, 0, 0); stroke-width: 2;" bx:origin="0 0"/>
+  <g transform="matrix(1, 0, 0, 1, -2.818675, -172.664459)">
+    <path d="M 27.168 234.497 L 27.168 265.503" style="stroke: black; stroke-width: 2;"/>
+    <path d="M 369.168 234.497 L 369.168 265.503" style="stroke: black; stroke-width: 2;"/>
+    <path d="M 121.124 234.497 L 121.124 265.503" style="stroke: black; stroke-width: 2;"/>
+    <path d="M 467.821 234.497 L 467.821 265.503" style="stroke: black; stroke-width: 2;"/>
+  </g>
+  <text x="15.893" y="22.768" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 0.999999, -4.879117, 15.356842)">Strongly</text>
+  <text x="435.057" y="24.173" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 0.999999, -1.879117, 13.950592)">Strongly</text>
+  <g transform="matrix(1, 0, 0, 1, 1.879117, -199.18634)">
+    <text x="8.377" y="115.784" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 0.999999, 0, 137.500122)">Disagree</text>
+    <text x="94.816" y="113.905" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 1.000001, 0, 139.390533)">Disagree</text>
+    <text x="350.86" y="111.086" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 0.999999, 0, 142.203247)">Agree</text>
+    <text x="443.876" y="107.328" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 0.999999, 0, 145.968872)">Agree</text>
+  </g>
+  <path d="M 19.304 166.639 L 469.488 169.538" style="stroke: rgb(0, 0, 0); stroke-width: 2;" bx:origin="0 0"/>
+  <path d="M 23.653 153.472 L 23.653 184.478" style="stroke: black; stroke-width: 2;"/>
+  <path d="M 322.433 152.532 L 322.433 183.538" style="stroke: black; stroke-width: 2;"/>
+  <path d="M 152.373 152.532 L 152.373 183.538" style="stroke: black; stroke-width: 2;"/>
+  <path d="M 464.306 153.472 L 464.306 184.478" style="stroke: black; stroke-width: 2;"/>
+  <text x="15.893" y="22.768" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 0.999999, -5.575415, 106.99614)">Strongly</text>
+  <text x="435.057" y="24.173" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 0.999999, -2.575415, 105.58989)">Strongly</text>
+  <text x="8.377" y="115.784" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 0.999999, 1.182821, 29.953094)">Disagree</text>
+  <text x="94.816" y="113.905" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 1.000001, 30.182821, 31.843506)">Disagree</text>
+  <text x="350.86" y="111.086" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 0.999999, -43.915974, 33.71666)">Agree</text>
+  <text x="443.876" y="107.328" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 0.999999, 1.182821, 38.421844)">Agree</text>
+  <path d="M 20.331 252.139 L 470.515 255.038" style="stroke: rgb(0, 0, 0); stroke-width: 2;" bx:origin="0 0"/>
+  <path d="M 24.68 238.972 L 24.68 269.978" style="stroke: black; stroke-width: 2;"/>
+  <path d="M 148.702 238.79 L 148.702 269.796" style="stroke: black; stroke-width: 2;"/>
+  <path d="M 98.906 238.032 L 98.906 269.038" style="stroke: black; stroke-width: 2;"/>
+  <path d="M 465.333 238.972 L 465.333 269.978" style="stroke: black; stroke-width: 2;"/>
+  <text x="15.893" y="22.768" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 0.999999, -4.548289, 192.49588)">Strongly</text>
+  <text x="8.377" y="115.784" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 0.999999, 2.209947, 115.452827)">Disagree</text>
+  <text x="94.816" y="113.905" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 1.000001, -23.28443, 117.343239)">Disagree</text>
+  <text x="350.86" y="111.086" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 0.999999, -217.646683, 119.974625)">Agree</text>
+  <text x="443.876" y="107.328" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 0.999999, 2.209947, 123.921577)">Agree</text>
+  <text x="435.057" y="24.173" style="font-family: Amiko; font-size: 12px; white-space: pre;" transform="matrix(1, 0, 0, 0.999999, -1.692083, 188.848984)">Strongly</text>
+</svg>
